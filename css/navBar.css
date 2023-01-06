@@ -1,0 +1,48 @@
+.navContainer {
+  width: 1000px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+
+  margin: auto;
+  z-index: 999;
+  background-color: black;
+}
+.links {
+  display: flex;
+}
+.links > div {
+  margin: 15px 8px;
+  cursor: pointer;
+}
+.nav {
+  height: 100%;
+  display: flex;
+  text-align: center;
+}
+.nav {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 20px;
+  transition: color 0.5s ease-in-out;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.nav:hover {
+  cursor: pointer;
+  color: skyblue;
+}
+.nav-click {
+  color: skyblue;
+}
+.icons {
+  font-size: 12px;
+  padding: 15px;
+  color: white;
+  background-color: skyblue;
+  border-radius: 50%;
+}

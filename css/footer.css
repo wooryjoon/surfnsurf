@@ -1,0 +1,20 @@
+.footer {
+  width: 900px;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  background-color: black;
+  animation: circle 1s 1s infinite alternate;
+}
+@keyframes circle {
+  from {
+    color: white;
+  }
+  to {
+    color: skyblue;
+  }
+}

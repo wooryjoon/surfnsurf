@@ -1,0 +1,14 @@
+@import "./components.css";
+@import "./home.css";
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  margin: 30px;
+  width: 600px;
+  height: 400px;
+  border-radius: 10%;
+}
